@@ -23,7 +23,7 @@ class Application
         if @@items.include?(new_item)
           @@cart << new_item
         else
-          resp.write "Search Item Not Available"
+          resp.write "We don't have that item"
         end
 
     else
